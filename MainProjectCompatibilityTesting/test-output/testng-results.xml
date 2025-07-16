@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-27T20:47:40 IST" name="Default suite" finished-at="2025-06-27T20:51:25 IST" duration-ms="224641">
+    <groups>
+    </groups>
+    <test started-at="2025-06-27T20:47:40 IST" name="Default test" finished-at="2025-06-27T20:51:25 IST" duration-ms="224641">
+      <class name="CompatibilityTesting.TestSignupAndLogin">
+        <test-method signature="signupAndLoginEdge()[pri:1, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:47:40 IST" name="signupAndLoginEdge" finished-at="2025-06-27T20:48:05 IST" duration-ms="25011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupAndLoginEdge -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:48:05 IST" name="afterMethod" finished-at="2025-06-27T20:48:09 IST" duration-ms="3623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="signupAndLoginChrome()[pri:2, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:48:09 IST" name="signupAndLoginChrome" finished-at="2025-06-27T20:48:35 IST" duration-ms="26622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupAndLoginChrome -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:48:35 IST" name="afterMethod" finished-at="2025-06-27T20:48:38 IST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="signupAndLoginFirefox()[pri:3, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:48:38 IST" name="signupAndLoginFirefox" finished-at="2025-06-27T20:49:07 IST" duration-ms="29306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupAndLoginFirefox -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:49:07 IST" name="afterMethod" finished-at="2025-06-27T20:49:10 IST" duration-ms="3213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="addCarFunctionalityEdge()[pri:4, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:49:10 IST" name="addCarFunctionalityEdge" finished-at="2025-06-27T20:49:45 IST" duration-ms="34675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCarFunctionalityEdge -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:49:45 IST" name="afterMethod" finished-at="2025-06-27T20:49:49 IST" duration-ms="3543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="addCarFunctionalityChrome()[pri:5, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:49:49 IST" name="addCarFunctionalityChrome" finished-at="2025-06-27T20:50:22 IST" duration-ms="33165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCarFunctionalityChrome -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:50:22 IST" name="afterMethod" finished-at="2025-06-27T20:50:24 IST" duration-ms="2446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="addCarFunctionalityFirefox()[pri:6, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:50:24 IST" name="addCarFunctionalityFirefox" finished-at="2025-06-27T20:51:21 IST" duration-ms="57249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCarFunctionalityFirefox -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CompatibilityTesting.TestSignupAndLogin@477b4cdf]" started-at="2025-06-27T20:51:21 IST" name="afterMethod" finished-at="2025-06-27T20:51:25 IST" duration-ms="3229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- CompatibilityTesting.TestSignupAndLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

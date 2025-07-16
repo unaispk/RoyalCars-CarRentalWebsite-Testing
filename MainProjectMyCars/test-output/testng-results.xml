@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-30T18:05:39 IST" name="Default suite" finished-at="2025-06-30T18:07:07 IST" duration-ms="87899">
+    <groups>
+    </groups>
+    <test started-at="2025-06-30T18:05:39 IST" name="Default test" finished-at="2025-06-30T18:07:07 IST" duration-ms="87899">
+      <class name="MainProject.MainProjectMyCars.MyCarsModule">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:MainProject.MainProjectMyCars.MyCarsModule@13c9d689]" started-at="2025-06-30T18:05:39 IST" name="beforeClass" finished-at="2025-06-30T18:05:58 IST" duration-ms="19340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="pageLoading()[pri:1, instance:MainProject.MainProjectMyCars.MyCarsModule@13c9d689]" started-at="2025-06-30T18:05:58 IST" name="pageLoading" finished-at="2025-06-30T18:06:04 IST" duration-ms="5414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLoading -->
+        <test-method signature="testAddCar()[pri:2, instance:MainProject.MainProjectMyCars.MyCarsModule@13c9d689]" started-at="2025-06-30T18:06:04 IST" name="testAddCar" finished-at="2025-06-30T18:06:45 IST" duration-ms="41456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCar -->
+        <test-method signature="testHoverOnButtons()[pri:3, instance:MainProject.MainProjectMyCars.MyCarsModule@13c9d689]" started-at="2025-06-30T18:06:45 IST" name="testHoverOnButtons" finished-at="2025-06-30T18:06:54 IST" duration-ms="8584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverOnButtons -->
+        <test-method signature="testEditCarDetails()[pri:4, instance:MainProject.MainProjectMyCars.MyCarsModule@13c9d689]" started-at="2025-06-30T18:06:54 IST" name="testEditCarDetails" finished-at="2025-06-30T18:07:05 IST" duration-ms="11395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditCarDetails -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:MainProject.MainProjectMyCars.MyCarsModule@13c9d689]" started-at="2025-06-30T18:07:05 IST" name="afterClass" finished-at="2025-06-30T18:07:07 IST" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- MainProject.MainProjectMyCars.MyCarsModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-29T18:40:43 IST" name="Default suite" finished-at="2025-06-29T18:42:42 IST" duration-ms="119269">
+    <groups>
+    </groups>
+    <test started-at="2025-06-29T18:40:43 IST" name="Default test" finished-at="2025-06-29T18:42:42 IST" duration-ms="119269">
+      <class name="MainProjectContactTest.ContactTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:40:43 IST" name="beforeClass" finished-at="2025-06-29T18:40:52 IST" duration-ms="8760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:40:52 IST" name="BeforeMethod" finished-at="2025-06-29T18:40:53 IST" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="testGeneralTestCases()[pri:1, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:40:53 IST" name="testGeneralTestCases" finished-at="2025-06-29T18:41:01 IST" duration-ms="8056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGeneralTestCases -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:41:01 IST" name="BeforeMethod" finished-at="2025-06-29T18:41:03 IST" duration-ms="1862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="testPageLoading()[pri:2, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:41:03 IST" name="testPageLoading" finished-at="2025-06-29T18:41:06 IST" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLoading -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:41:06 IST" name="BeforeMethod" finished-at="2025-06-29T18:41:07 IST" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="testAfterLogin()[pri:3, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:41:07 IST" name="testAfterLogin" finished-at="2025-06-29T18:41:35 IST" duration-ms="28562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterLogin -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:41:35 IST" name="BeforeMethod" finished-at="2025-06-29T18:41:36 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="testPrintability()[pri:4, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:41:36 IST" name="testPrintability" finished-at="2025-06-29T18:41:42 IST" duration-ms="5179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrintability -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:41:42 IST" name="BeforeMethod" finished-at="2025-06-29T18:41:42 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="testRefresh()[pri:5, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:41:42 IST" name="testRefresh" finished-at="2025-06-29T18:42:01 IST" duration-ms="19266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefresh -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:42:01 IST" name="BeforeMethod" finished-at="2025-06-29T18:42:03 IST" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="testKeyboardAccess()[pri:6, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:42:03 IST" name="testKeyboardAccess" finished-at="2025-06-29T18:42:28 IST" duration-ms="25554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testKeyboardAccess -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:42:28 IST" name="BeforeMethod" finished-at="2025-06-29T18:42:30 IST" duration-ms="1764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="testBottomPart()[pri:7, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:42:30 IST" name="testBottomPart" finished-at="2025-06-29T18:42:40 IST" duration-ms="10385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBottomPart -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:MainProjectContactTest.ContactTest@b2c9a9c]" started-at="2025-06-29T18:42:40 IST" name="afterClass" finished-at="2025-06-29T18:42:42 IST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- MainProjectContactTest.ContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

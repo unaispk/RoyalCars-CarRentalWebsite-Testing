@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="12" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-30T01:34:39 IST" name="Default suite" finished-at="2025-06-30T01:38:40 IST" duration-ms="241130">
+    <groups>
+    </groups>
+    <test started-at="2025-06-30T01:34:39 IST" name="Default test" finished-at="2025-06-30T01:38:40 IST" duration-ms="241130">
+      <class name="MainProject.MainProjectAddCar.AddCarModule">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:34:39 IST" name="beforeClass" finished-at="2025-06-30T01:34:59 IST" duration-ms="20022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:34:59 IST" name="beforeMethod" finished-at="2025-06-30T01:35:02 IST" duration-ms="3232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testPageLoad()[pri:1, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:35:02 IST" name="testPageLoad" finished-at="2025-06-30T01:35:14 IST" duration-ms="11441" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="navbarCollapse"]/div/a[2] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63688}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63688/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6354bc86ca62d6fb3fa102e21f074369]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="navbarCollapse"]/div/a[2] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63688}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63688/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6354bc86ca62d6fb3fa102e21f074369
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at MainProject.MainProjectAddCar.AddCarModule.testPageLoad(AddCarModule.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLoad -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:35:14 IST" name="beforeMethod" finished-at="2025-06-30T01:35:14 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddCarValidData()[pri:2, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:35:14 IST" name="testAddCarValidData" finished-at="2025-06-30T01:36:40 IST" duration-ms="86604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCarValidData -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:36:40 IST" name="beforeMethod" finished-at="2025-06-30T01:36:43 IST" duration-ms="2547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testEmptySubmissionBlocked()[pri:3, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:36:43 IST" name="testEmptySubmissionBlocked" finished-at="2025-06-30T01:36:46 IST" duration-ms="3347" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument: 'text' is empty
+  (Session info: MicrosoftEdge=137.0.3296.68)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6354bc86ca62d6fb3fa102e21f074369, sendKeysToElement {value=[Ljava.lang.CharSequence;@6ad11a56, id=f.8FFCEF7D5B31D5ED1A94B540A73FD509.d.612A13D82A165AE9F006E305BAF2A526.e.189}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63688}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63688/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6354bc86ca62d6fb3fa102e21f074369)] -> xpath: //*[@id="id_image"]]
+Session ID: 6354bc86ca62d6fb3fa102e21f074369]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: 'text' is empty
+  (Session info: MicrosoftEdge=137.0.3296.68)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6354bc86ca62d6fb3fa102e21f074369, sendKeysToElement {value=[Ljava.lang.CharSequence;@6ad11a56, id=f.8FFCEF7D5B31D5ED1A94B540A73FD509.d.612A13D82A165AE9F006E305BAF2A526.e.189}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63688}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63688/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6354bc86ca62d6fb3fa102e21f074369)] -> xpath: //*[@id="id_image"]]
+Session ID: 6354bc86ca62d6fb3fa102e21f074369
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at MainProject.MainProjectAddCar.AddCarModule.testEmptySubmissionBlocked(AddCarModule.java:190)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptySubmissionBlocked -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:36:46 IST" name="beforeMethod" finished-at="2025-06-30T01:36:46 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testEmptySingleFieldSubmissionBlocked()[pri:4, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:36:46 IST" name="testEmptySingleFieldSubmissionBlocked" finished-at="2025-06-30T01:36:59 IST" duration-ms="12860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptySingleFieldSubmissionBlocked -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:36:59 IST" name="beforeMethod" finished-at="2025-06-30T01:36:59 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testModelInvalidRejected()[pri:5, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:36:59 IST" name="testModelInvalidRejected" finished-at="2025-06-30T01:37:12 IST" duration-ms="12727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelInvalidRejected -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:12 IST" name="beforeMethod" finished-at="2025-06-30T01:37:12 IST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testColorInvalidRejected()[pri:6, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:12 IST" name="testColorInvalidRejected" finished-at="2025-06-30T01:37:20 IST" duration-ms="7722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testColorInvalidRejected -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:20 IST" name="beforeMethod" finished-at="2025-06-30T01:37:21 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testNonImageRejected()[pri:7, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:21 IST" name="testNonImageRejected" finished-at="2025-06-30T01:37:22 IST" duration-ms="769" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument: 'text' is empty
+  (Session info: MicrosoftEdge=137.0.3296.68)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6354bc86ca62d6fb3fa102e21f074369, sendKeysToElement {value=[Ljava.lang.CharSequence;@5ff00507, id=f.8FFCEF7D5B31D5ED1A94B540A73FD509.d.51B9CA4FB91488D4327E041EC17E49E4.e.261}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63688}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63688/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6354bc86ca62d6fb3fa102e21f074369)] -> id: id_image]
+Session ID: 6354bc86ca62d6fb3fa102e21f074369]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: 'text' is empty
+  (Session info: MicrosoftEdge=137.0.3296.68)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6354bc86ca62d6fb3fa102e21f074369, sendKeysToElement {value=[Ljava.lang.CharSequence;@5ff00507, id=f.8FFCEF7D5B31D5ED1A94B540A73FD509.d.51B9CA4FB91488D4327E041EC17E49E4.e.261}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63688}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63688/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (6354bc86ca62d6fb3fa102e21f074369)] -> id: id_image]
+Session ID: 6354bc86ca62d6fb3fa102e21f074369
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at MainProject.MainProjectAddCar.AddCarModule.testNonImageRejected(AddCarModule.java:329)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonImageRejected -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:22 IST" name="beforeMethod" finished-at="2025-06-30T01:37:22 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testShortPhoneNumberRejected()[pri:8, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:22 IST" name="testShortPhoneNumberRejected" finished-at="2025-06-30T01:37:26 IST" duration-ms="4858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShortPhoneNumberRejected -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:26 IST" name="beforeMethod" finished-at="2025-06-30T01:37:26 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLongPhoneNumberRejected()[pri:9, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:26 IST" name="testLongPhoneNumberRejected" finished-at="2025-06-30T01:37:30 IST" duration-ms="3546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLongPhoneNumberRejected -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:30 IST" name="beforeMethod" finished-at="2025-06-30T01:37:30 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testNegativePriceRejected()[pri:10, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:30 IST" name="testNegativePriceRejected" finished-at="2025-06-30T01:37:38 IST" duration-ms="8285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativePriceRejected -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:38 IST" name="beforeMethod" finished-at="2025-06-30T01:37:39 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testZeroPriceRejected()[pri:11, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:39 IST" name="testZeroPriceRejected" finished-at="2025-06-30T01:37:57 IST" duration-ms="18433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZeroPriceRejected -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:57 IST" name="beforeMethod" finished-at="2025-06-30T01:37:58 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSpacesOnlyFieldRejected()[pri:12, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:37:58 IST" name="testSpacesOnlyFieldRejected" finished-at="2025-06-30T01:38:06 IST" duration-ms="8224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpacesOnlyFieldRejected -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:38:06 IST" name="beforeMethod" finished-at="2025-06-30T01:38:06 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testBacktoHomeNavigation()[pri:13, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:38:06 IST" name="testBacktoHomeNavigation" finished-at="2025-06-30T01:38:12 IST" duration-ms="5420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBacktoHomeNavigation -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:38:12 IST" name="beforeMethod" finished-at="2025-06-30T01:38:12 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testTabKeyAccess()[pri:14, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:38:12 IST" name="testTabKeyAccess" finished-at="2025-06-30T01:38:23 IST" duration-ms="10418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTabKeyAccess -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:38:23 IST" name="beforeMethod" finished-at="2025-06-30T01:38:23 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testEnterKeySubmission()[pri:15, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:38:23 IST" name="testEnterKeySubmission" finished-at="2025-06-30T01:38:38 IST" duration-ms="15108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnterKeySubmission -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:MainProject.MainProjectAddCar.AddCarModule@43bc63a3]" started-at="2025-06-30T01:38:38 IST" name="afterClass" finished-at="2025-06-30T01:38:40 IST" duration-ms="1973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- MainProject.MainProjectAddCar.AddCarModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

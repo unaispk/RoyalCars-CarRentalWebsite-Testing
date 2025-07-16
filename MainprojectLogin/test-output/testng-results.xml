@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-27T00:06:44 IST" name="Default suite" finished-at="2025-06-27T00:10:11 IST" duration-ms="206719">
+    <groups>
+    </groups>
+    <test started-at="2025-06-27T00:06:44 IST" name="Default test" finished-at="2025-06-27T00:10:11 IST" duration-ms="206719">
+      <class name="MainProject.LoginModule.LoginMainProject">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:06:44 IST" name="beforeClass" finished-at="2025-06-27T00:07:01 IST" duration-ms="17027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:01 IST" name="beforeMethod" finished-at="2025-06-27T00:07:01 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginPageUI()[pri:1, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:01 IST" name="loginPageUI" finished-at="2025-06-27T00:07:06 IST" duration-ms="4467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:06 IST" name="afterMethod" finished-at="2025-06-27T00:07:09 IST" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:09 IST" name="beforeMethod" finished-at="2025-06-27T00:07:09 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testFieldAcceptingInputs()[pri:2, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:09 IST" name="testFieldAcceptingInputs" finished-at="2025-06-27T00:07:14 IST" duration-ms="4927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldAcceptingInputs -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:14 IST" name="afterMethod" finished-at="2025-06-27T00:07:19 IST" duration-ms="4860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:19 IST" name="beforeMethod" finished-at="2025-06-27T00:07:20 IST" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSpaceOnlyAsInput()[pri:3, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:20 IST" name="testSpaceOnlyAsInput" finished-at="2025-06-27T00:07:22 IST" duration-ms="2356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpaceOnlyAsInput -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:22 IST" name="afterMethod" finished-at="2025-06-27T00:07:25 IST" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:25 IST" name="beforeMethod" finished-at="2025-06-27T00:07:25 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testUppercaseCaseSensitivityPassword()[pri:4, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:25 IST" name="testUppercaseCaseSensitivityPassword" finished-at="2025-06-27T00:07:29 IST" duration-ms="4070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUppercaseCaseSensitivityPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:29 IST" name="afterMethod" finished-at="2025-06-27T00:07:32 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:32 IST" name="beforeMethod" finished-at="2025-06-27T00:07:32 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testTabKeyNavigation()[pri:5, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:32 IST" name="testTabKeyNavigation" finished-at="2025-06-27T00:07:40 IST" duration-ms="8351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTabKeyNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:40 IST" name="afterMethod" finished-at="2025-06-27T00:07:43 IST" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:43 IST" name="beforeMethod" finished-at="2025-06-27T00:07:43 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testValidUsernameValidPassword()[pri:6, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:43 IST" name="testValidUsernameValidPassword" finished-at="2025-06-27T00:07:46 IST" duration-ms="2327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidUsernameValidPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:46 IST" name="afterMethod" finished-at="2025-06-27T00:07:50 IST" duration-ms="4475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:50 IST" name="beforeMethod" finished-at="2025-06-27T00:07:51 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRefreshClearInputData()[pri:7, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:51 IST" name="testRefreshClearInputData" finished-at="2025-06-27T00:07:54 IST" duration-ms="2868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefreshClearInputData -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:54 IST" name="afterMethod" finished-at="2025-06-27T00:07:57 IST" duration-ms="3021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:57 IST" name="beforeMethod" finished-at="2025-06-27T00:07:57 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRedirectionAfterLoginSuccess()[pri:8, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:57 IST" name="testRedirectionAfterLoginSuccess" finished-at="2025-06-27T00:07:59 IST" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedirectionAfterLoginSuccess -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:07:59 IST" name="afterMethod" finished-at="2025-06-27T00:08:03 IST" duration-ms="4127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:03 IST" name="beforeMethod" finished-at="2025-06-27T00:08:04 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAccountPersistanceAfterMovingToOtherPage()[pri:9, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:04 IST" name="testAccountPersistanceAfterMovingToOtherPage" finished-at="2025-06-27T00:08:22 IST" duration-ms="17586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountPersistanceAfterMovingToOtherPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:22 IST" name="afterMethod" finished-at="2025-06-27T00:08:26 IST" duration-ms="4106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:26 IST" name="beforeMethod" finished-at="2025-06-27T00:08:27 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testEmptyUsername()[pri:10, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:27 IST" name="testEmptyUsername" finished-at="2025-06-27T00:08:29 IST" duration-ms="2329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyUsername -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:29 IST" name="afterMethod" finished-at="2025-06-27T00:08:32 IST" duration-ms="3013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:32 IST" name="beforeMethod" finished-at="2025-06-27T00:08:32 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testEmptyPassWord()[pri:11, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:32 IST" name="testEmptyPassWord" finished-at="2025-06-27T00:08:34 IST" duration-ms="2304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPassWord -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:35 IST" name="afterMethod" finished-at="2025-06-27T00:08:38 IST" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:38 IST" name="beforeMethod" finished-at="2025-06-27T00:08:38 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testEmptyInputFields()[pri:12, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:38 IST" name="testEmptyInputFields" finished-at="2025-06-27T00:08:44 IST" duration-ms="6323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyInputFields -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:44 IST" name="afterMethod" finished-at="2025-06-27T00:08:47 IST" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:47 IST" name="beforeMethod" finished-at="2025-06-27T00:08:47 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testWrongPassword()[pri:13, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:47 IST" name="testWrongPassword" finished-at="2025-06-27T00:08:52 IST" duration-ms="5329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:52 IST" name="afterMethod" finished-at="2025-06-27T00:08:55 IST" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:55 IST" name="beforeMethod" finished-at="2025-06-27T00:08:55 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testWrongUsername()[pri:14, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:08:55 IST" name="testWrongUsername" finished-at="2025-06-27T00:09:01 IST" duration-ms="5303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongUsername -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:01 IST" name="afterMethod" finished-at="2025-06-27T00:09:04 IST" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:04 IST" name="beforeMethod" finished-at="2025-06-27T00:09:04 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testWrongUsernameAndWrongPassword()[pri:15, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:04 IST" name="testWrongUsernameAndWrongPassword" finished-at="2025-06-27T00:09:10 IST" duration-ms="6780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongUsernameAndWrongPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:10 IST" name="afterMethod" finished-at="2025-06-27T00:09:13 IST" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:13 IST" name="beforeMethod" finished-at="2025-06-27T00:09:13 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testUsernameOnlyNumbers()[pri:16, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:13 IST" name="testUsernameOnlyNumbers" finished-at="2025-06-27T00:09:16 IST" duration-ms="2279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsernameOnlyNumbers -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:16 IST" name="afterMethod" finished-at="2025-06-27T00:09:19 IST" duration-ms="3027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:19 IST" name="beforeMethod" finished-at="2025-06-27T00:09:19 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testUsernameOnlySpecialCharecters()[pri:17, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:19 IST" name="testUsernameOnlySpecialCharecters" finished-at="2025-06-27T00:09:21 IST" duration-ms="2288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsernameOnlySpecialCharecters -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:21 IST" name="afterMethod" finished-at="2025-06-27T00:09:24 IST" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:24 IST" name="beforeMethod" finished-at="2025-06-27T00:09:24 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLogout()[pri:18, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:24 IST" name="testLogout" finished-at="2025-06-27T00:09:26 IST" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:26 IST" name="afterMethod" finished-at="2025-06-27T00:09:30 IST" duration-ms="4037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:30 IST" name="beforeMethod" finished-at="2025-06-27T00:09:31 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLogoutPersistence()[pri:19, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:31 IST" name="testLogoutPersistence" finished-at="2025-06-27T00:09:48 IST" duration-ms="16473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutPersistence -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:48 IST" name="afterMethod" finished-at="2025-06-27T00:09:51 IST" duration-ms="3056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:51 IST" name="beforeMethod" finished-at="2025-06-27T00:09:51 IST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLogoutandBack()[pri:20, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:09:51 IST" name="testLogoutandBack" finished-at="2025-06-27T00:10:05 IST" duration-ms="13110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutandBack -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:10:05 IST" name="afterMethod" finished-at="2025-06-27T00:10:09 IST" duration-ms="4802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:MainProject.LoginModule.LoginMainProject@54d9d12d]" started-at="2025-06-27T00:10:09 IST" name="afterClass" finished-at="2025-06-27T00:10:11 IST" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- MainProject.LoginModule.LoginMainProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
